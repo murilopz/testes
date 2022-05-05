@@ -1,5 +1,5 @@
 #!/bin/bash
 #service apache2 start
 
-export DOTH_var1 = valor1
-export DOTH_var2 = valor2
+export DOTH_var1=valor1
+export DOTH_var2=valor2
