@@ -15,9 +15,11 @@ echo '<p>Server Addr: '.$_SERVER['SERVER_ADDR'];
 echo '<p> outras ';
 
 
-echo '<p>env 1: '.getenv('DOTH_var1').PHP_EOL;
+echo '<p>env 1: '.getenv('DOTH_var1');
 
-echo '<p>env 2: '.getenv('DOTH_var2').PHP_EOL;
+echo '<p>env 2: '.getenv('DOTH_var2');
+
+echo '<p>HTTP_X_FORWARDED_FOR: '.getenv('HTTP_X_FORWARDED_FOR');
 
 //print_r($_ENV);
 
