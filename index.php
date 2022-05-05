@@ -12,4 +12,8 @@ echo '<p>Remote Addr: '.$_SERVER['REMOTE_ADDR'];
 
 echo '<p>Server Addr: '.$_SERVER['SERVER_ADDR'];
 
+echo '<p> outras ';
+
+print_r($_SERVER);
+
 ?>
