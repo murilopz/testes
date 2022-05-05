@@ -14,6 +14,11 @@ echo '<p>Server Addr: '.$_SERVER['SERVER_ADDR'];
 
 echo '<p> outras ';
 
-print_r($_SERVER);
+
+echo '<p>env 1: '.getenv('DOTH_var1').PHP_EOL;
+
+echo '<p>env 2: '.getenv('DOTH_var2').PHP_EOL;
+
+//print_r($_SERVER);
 
 ?>
