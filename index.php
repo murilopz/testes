@@ -4,7 +4,7 @@ $url = 'http://169.254.169.254/latest/meta-data/instance-id';
 
 $instance = file_get_contents($url);
 
-echo '<p>Versao Github 9xxxx';
+echo '<p>Versao Github 10';
 
 echo '<p>Instancia '.$instance;
 
